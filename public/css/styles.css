@@ -162,13 +162,14 @@ span{
 }
 
 .commentaire span{
-    color: white;
+    color: black;
 }
 .contenu-commentaire {
     flex: 1;
     font-size: 16px;
     line-height: 1.6;
     width: 1;
+    margin: 10px;
     text-align: justify; /* Justifie le texte */
 }
 
@@ -199,6 +200,7 @@ span{
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
+   
 }
 #saisicomment{
     text-align: center;
@@ -233,7 +235,8 @@ span{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 5px;
+    margin: 5px;
+   
 }
 
 .profile-image {
